@@ -1,20 +1,16 @@
-# Install
+MVP of a full-stack social network app focused on sharing manga panels
 
-`npm install`
+## How It's Made:
 
----
+Tech Used: JavaScript, Bootstrap, EJS/CSS/HTML, MongoDB, Cloudinary, Passport.js, multer, Node.js
 
-# Things to add
 
-- Create a `.env` file in config folder and add the following as `key = value`
-  - PORT = 2121 (can be any port example: 3000)
-  - DB_STRING = `your database URI`
-  - CLOUD_NAME = `your cloudinary cloud name`
-  - API_KEY = `your cloudinary api key`
-  - API_SECRET = `your cloudinary api secret`
+## Lessons Learned:
 
----
+Architecting the app beforehand is a huge time saver. I had to feel out a few services for storing images and went with Cloudinary. Definitely upped my comfortability using EJS in this app. Would love to flesh this out more in the future.
 
-# Run
+## To Do:
 
-`npm start`
+- Add deletion of posts
+- Add username IDs to comments added on posts
+- Further style Profile pages i.e. make app Brand; colors, logo, vibe, etc.
