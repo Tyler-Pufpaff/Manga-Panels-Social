@@ -1,0 +1,8 @@
+.big-title {
+    font-size: 70px !important;
+    font-weight: 600 !important;
+    background-image: linear-gradient(to left, #553c9a, #b393d3) !important;
+    color: transparent !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+  }
